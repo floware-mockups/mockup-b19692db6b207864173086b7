@@ -1,0 +1,170 @@
+{
+  "title": "Registro delle attività",
+  "description": "Prototipo per consultare l’andamento delle attività, filtrare il registro e inserire nuove voci.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Riepilogo delle attività e delle voci aggiornate di recente.",
+      "metrics": [
+        {
+          "label": "Attività totali",
+          "value": "28"
+        },
+        {
+          "label": "In corso",
+          "value": "11"
+        },
+        {
+          "label": "Completate",
+          "value": "14"
+        },
+        {
+          "label": "Da avviare",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Attività",
+        "Progetto",
+        "Stato",
+        "Priorità",
+        "Data",
+        "Gruppo"
+      ],
+      "rows": [
+        [
+          "Verificare mappa dei flussi",
+          "Vela Chiara",
+          "In corso",
+          "Alta",
+          "2025-04-12",
+          "Gruppo Lumo"
+        ],
+        [
+          "Rivedere schede di prova",
+          "Nubi Azzurre",
+          "Completata",
+          "Media",
+          "2025-04-11",
+          "Gruppo Vela"
+        ],
+        [
+          "Preparare riepilogo dei rilievi",
+          "Lumo Gentile",
+          "Da avviare",
+          "Bassa",
+          "2025-04-10",
+          "Gruppo Nubi"
+        ],
+        [
+          "Confrontare esiti del ciclo",
+          "Vela Chiara",
+          "In corso",
+          "Media",
+          "2025-04-09",
+          "Gruppo Lumo"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "registro-attivita",
+      "title": "Registro attività",
+      "description": "Tabella filtrabile per attività, progetto, stato, priorità, data e gruppo. Il modulo consente di aggiungere una nuova voce.",
+      "metrics": [
+        {
+          "label": "Voci nel registro",
+          "value": "28"
+        },
+        {
+          "label": "Priorità alta",
+          "value": "6"
+        }
+      ],
+      "columns": [
+        "Attività",
+        "Progetto",
+        "Stato",
+        "Priorità",
+        "Data",
+        "Gruppo"
+      ],
+      "rows": [
+        [
+          "Verificare mappa dei flussi",
+          "Vela Chiara",
+          "In corso",
+          "Alta",
+          "2025-04-12",
+          "Gruppo Lumo"
+        ],
+        [
+          "Rivedere schede di prova",
+          "Nubi Azzurre",
+          "Completata",
+          "Media",
+          "2025-04-11",
+          "Gruppo Vela"
+        ],
+        [
+          "Preparare riepilogo dei rilievi",
+          "Lumo Gentile",
+          "Da avviare",
+          "Bassa",
+          "2025-04-10",
+          "Gruppo Nubi"
+        ],
+        [
+          "Confrontare esiti del ciclo",
+          "Vela Chiara",
+          "In corso",
+          "Media",
+          "2025-04-09",
+          "Gruppo Lumo"
+        ],
+        [
+          "Riordinare note operative",
+          "Nubi Azzurre",
+          "Completata",
+          "Bassa",
+          "2025-04-08",
+          "Gruppo Vela"
+        ],
+        [
+          "Validare griglia di controllo",
+          "Lumo Gentile",
+          "In corso",
+          "Alta",
+          "2025-04-07",
+          "Gruppo Nubi"
+        ],
+        [
+          "Aggiornare sintesi del ciclo",
+          "Vela Chiara",
+          "Da avviare",
+          "Media",
+          "2025-04-06",
+          "Gruppo Lumo"
+        ],
+        [
+          "Catalogare osservazioni",
+          "Nubi Azzurre",
+          "Completata",
+          "Bassa",
+          "2025-04-05",
+          "Gruppo Vela"
+        ]
+      ],
+      "form": [
+        "Attività",
+        "Progetto",
+        "Stato",
+        "Priorità",
+        "Data",
+        "Gruppo"
+      ]
+    }
+  ]
+}
